@@ -1,5 +1,5 @@
 <template>
-  <div class="info-cards-container main-layout">
+  <div class="info-cards-container">
     <article class="info-card flex">
       <img src="../assets/images/icon-access-anywhere.svg" alt="" />
       <h5 class="card-title">Access your files, anywhere</h5>

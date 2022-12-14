@@ -1,5 +1,5 @@
 <template>
-  <section class="home-container main-layout">
+  <section class="home-container">
     <div class="intro-container flex">
       <img src="../assets/images/illustration-intro.png" alt="" />
       <h3 class="intro-content title">All your files in one secure location, accessible anywhere.</h3>
@@ -8,7 +8,7 @@
         friends family, and co-workers.</p>
         <button class="intro button">Get started</button>
         <info-cards/>
-        <call-to/>
+        <call-to  class="main-layout full"/>
     </div>
   </section>
 </template>
