@@ -1,5 +1,6 @@
 <template>
-  <div class="call-to-action container main-layout flex">
+  <div class="call-to-action container main-layout">
+  <div class="flex">
     <div class="call-to-action image">
     <img src="../assets/images/illustration-stay-productive.png" alt=""></div>
     <div class="call-to-action content flex">
@@ -10,5 +11,6 @@
             <router-link to="/about">See how Fylo works</router-link> <img class="arrow-btn" src="../assets/images/Oval.png" alt="">
         </div>
     </div>
+</div>
   </div>
 </template>
