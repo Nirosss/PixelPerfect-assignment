@@ -21,9 +21,34 @@
         &.last {
           padding-right: none;
         }
+     
+        
+      }
+      &.open{
         @media (max-width: $mobile-breakpoint) {
-          display: none;
+          display: flex;
+          flex-direction: column;
+          position: fixed;
+          right: 10px;
+          top: 140px;
+          gap: 20px;
+          background-color: $clr2;
+          height: 300px;
+          width: 100%;
+          align-items: center;
+          // box-shadow: #ffffff 0px 4px;
+          .nav-link{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 8px;
+            
+          }
         }
+      
+      }
+      @media (max-width: $mobile-breakpoint) {
+        display: none;
       }
     }
     .btn-menu {

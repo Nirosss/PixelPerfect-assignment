@@ -1,6 +1,6 @@
 <template>
   <div class="testimonials main-container main-layout full">
-    <div v-if="cards" class="testimonials inner-container flex ">
+    <div v-if="cards" class="testimonials inner-container flex">
       <div
         class="testimonial-card"
         v-for="(card, idx) in cards.slice(0, 3)"
@@ -26,19 +26,19 @@
         cards: [
           {
             txt: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-            imgUrl: '../../src/assets/images/profile-1.jpg',
+            imgUrl: 'assets/images/profile-1.jpg',
             fullName: 'Satish Patel',
             jobTitle: 'Founder & CEO, Huddle',
           },
           {
             txt: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-            imgUrl: '../../src/assets/images/profile-2.jpg',
+            imgUrl: 'assets/images/profile-2.jpg',
             fullName: 'Iva Boyd',
             jobTitle: 'Founder & CEO, Huddle',
           },
           {
             txt: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-            imgUrl: '../../src/assets/images/profile-3.jpg',
+            imgUrl: 'assets/images/profile-3.jpg',
             fullName: 'Bruce McKenzie',
             jobTitle: 'Founder & CEO, Huddle',
           },
