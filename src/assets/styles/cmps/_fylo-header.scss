@@ -1,6 +1,7 @@
 .header-container {
-  margin-inline-start: 25px;
-  margin-inline-end: 25px;
+  background-color: $clr2;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
   .main-header {
     padding-top: 75px;
     margin-bottom: 65px;
@@ -20,12 +21,18 @@
         &.last {
           padding-right: none;
         }
+        @media (max-width: $mobile-breakpoint) {
+          display: none;
+        }
       }
     }
     .btn-menu {
+      all: unset;
       display: none;
+
       @media (max-width: $mobile-breakpoint) {
         display: block;
+        padding-right: 50px;
       }
     }
   }

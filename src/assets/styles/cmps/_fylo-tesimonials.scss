@@ -1,0 +1,99 @@
+.testimonials.main-container {
+  background-color: #181f2b;
+  padding-bottom: 350px;
+  @media (max-width: $mobile-breakpoint) {
+    padding-bottom: 190px;
+    
+  }
+  .inner-container {
+    width: min(100% - 140px, 1440px);
+    margin-inline: auto;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: space-around;
+    @media (max-width: $mobile-breakpoint) {
+      flex-direction: column;
+      
+    }
+    .testimonial-card {
+      background-color: $clr2;
+      flex-basis: 360px;
+      height: 200px;
+      color: $clr6;
+      padding: 25px;
+      img {
+        height: 25px;
+        border-radius: 100%;
+      }
+      .testimonial-content {
+        width: 36ch;
+        height: 80px;
+        color: $clr6;
+        font-family: 'Open Sans - Regular';
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.5px;
+        line-height: 21px;
+        text-align: left;
+        margin-bottom: 28px;
+        padding-top: 14px;
+        /* Text style for "." */
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+      }
+      .testimonial-title {
+        img {
+          padding-right: 10px;
+        }
+      }
+      .testimonial-title .content {
+        flex-direction: column;
+
+        .testimonial-user-name {
+          color: $clr6;
+          font-family: 'Open Sans - Bold';
+          font-size: 10px;
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: 0.5px;
+          line-height: 12px;
+          text-align: left;
+        }
+        .testimonial-user-title {
+          color: $clr6;
+          font-family: 'Open Sans - Regular';
+          font-size: 8px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: 0.57px;
+          line-height: 10px;
+          text-align: left;
+          /* Text style for "e" */
+          font-style: normal;
+          letter-spacing: 0.65px;
+          line-height: normal;
+        }
+      }
+      @media (max-width: $mobile-breakpoint) {
+        flex-basis: 280px;
+        height: 160px;
+        padding: 20px;
+        text-align: center;
+        .testimonial-content {
+          padding-bottom: 28px;
+          color: #ffffff;
+          font-family: 'Open Sans - Regular';
+          font-size: 16px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 18px;
+          text-align: left;
+          width: 50ch;
+        }
+      }
+    }
+  }
+}

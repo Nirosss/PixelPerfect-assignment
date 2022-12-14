@@ -5,7 +5,7 @@
         <img src="../assets/images/illustration-stay-productive.png" alt="" />
       </div>
       <div class="call-to-action content flex">
-        <h2>Stay productive, wherever you are</h2>
+        <h2 call-to-action>Stay productive, wherever you are</h2>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.

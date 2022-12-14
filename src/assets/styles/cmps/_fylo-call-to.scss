@@ -1,9 +1,15 @@
 .call-to-action {
+  background-color: #181f2b;
+  
   .inner-container {
+    width: min(100% - 25px, 1440px);
+    margin-inline: auto;
     gap: 55px;
     align-items: center;
+    padding-bottom: 120px;
     @media (max-width: $mobile-breakpoint) {
       flex-direction: column;
+      padding-bottom: 20px;
     }
     &.image {
       flex-basis: 615px;
@@ -18,7 +24,7 @@
       }
       h2 {
         color: #ffffff;
-        font-family: 'RalewayBold';
+        font-family: 'Raleway-Bold';
         font-size: 40px;
         max-width: 20ch;
         font-weight: 700;

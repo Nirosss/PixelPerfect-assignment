@@ -1,0 +1,75 @@
+.sign-up.inner {
+  margin-top: -150px;
+  flex-direction: column;
+  align-items: center;
+  /* Style for "Rectangle" */
+  width: min(100% - 140px, 863px);
+  margin-inline: auto;
+  height: 275px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  background-color: #1b2330;
+  padding: 40px;
+  h2 {
+    color: #ffffff;
+    font-family: 'Raleway - Bold';
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+  h6 {
+    color: #ffffff;
+    width: 80ch;
+    font-family: 'Open Sans - Regular';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .input-container {
+    width: 90%;
+    input {
+      /* Style for "Rectangle" */
+      flex-basis: 480px;
+      height: 48px;
+      box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+      border-radius: 24px;
+      background-color: #ffffff;
+    }
+    button {
+      /* Style for "Rectangle" */
+      flex-basis: 200px;
+      height: 48px;
+      border-radius: 24px;
+    }
+    gap: 24px;
+
+    @media (max-width: $mobile-breakpoint) {
+      flex-direction: column;
+      align-items: center;
+      width: min(100% - 140px, 863px);
+      margin-inline: auto;
+      height: 353px;
+    }
+    input,
+    button {
+      flex-basis: unset;
+      width: 100%;
+    }
+  }
+  @media (max-width: $mobile-breakpoint) {
+    flex-direction: column;
+    align-items: center;
+    width: min(100% - 140px, 863px);
+    margin-inline: auto;
+    height: 353px;
+    padding: 28px;
+  }
+}

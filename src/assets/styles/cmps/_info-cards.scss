@@ -1,9 +1,15 @@
+.info-cards.main-layout{
+  background-color: #181f2b;
+  
 .info-cards-container {
-  display: flex;
+  max-width: 1180px;
   flex-wrap: wrap;
-@media (max-width: $mobile-breakpoint){
-flex-direction: column;
-}
+  margin-inline: auto;
+  @media (max-width: $mobile-breakpoint){
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+
   .info-card {
     flex-basis: 50%;
     flex-direction: column;
@@ -16,7 +22,7 @@ flex-direction: column;
     .card-title {
       height: 24px;
       color: #ffffff;
-      font-family: 'Raleway - Bold';
+      font-family: 'Raleway-Bold';
       font-size: 20px;
       font-weight: 700;
       font-style: normal;
@@ -37,4 +43,6 @@ flex-direction: column;
       text-align: center;
     }
   }
+}
+
 }
