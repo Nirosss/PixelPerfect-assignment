@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: inter, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: $clr2;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: $clr1;
+  color: $clr6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 0;
+}
+h2 {
+  font-size: 1.2em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: $clr5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $clr4;
+}
+
+button {
+  cursor: pointer;
+}

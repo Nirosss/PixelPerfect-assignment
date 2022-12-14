@@ -1,0 +1,18 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+
+// Basics
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/base';
+
+// PAGE
+@import 'pages/home';
+
+// Components
+@import './cmps/fylo-header';
+@import './cmps/info-cards';
+@import './cmps/fylo-call-to'

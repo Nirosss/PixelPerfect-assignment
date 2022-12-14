@@ -1,0 +1,15 @@
+.call-to-action{
+   &.image{
+    flex-basis: 615px;
+    height: 464px;
+
+   }
+        .content{
+            flex-direction: column;
+            .arrow-btn{
+                height: 12px;
+                width: 12px;
+            }
+        }
+    
+}

@@ -1,0 +1,23 @@
+.main-header {
+  .main-nav {
+    .nav-link {
+      color: unset;
+      color: $clr6;
+      padding-right: 50px;
+      height: 19px;
+      color: #ffffff;
+      font-family: Raleway;
+      font-size: 16px;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: left;
+      &.last{
+        padding-right: none;
+      }
+    }
+ 
+}
+}
+
+
